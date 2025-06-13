@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <Separator className="mb-8" />
         <div className="text-center">
-          <p className="text-muted-foreground mb-2">© 2025 Khushaank Gupta. All rights reserved.</p>
+          <p className="text-muted-foreground mb-2">© 2026 Khushaank Gupta. All rights reserved.z</p>
         </div>
       </div>
     </footer>;
