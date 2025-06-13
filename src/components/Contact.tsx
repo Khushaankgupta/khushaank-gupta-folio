@@ -21,8 +21,7 @@ const Contact = () => {
               Get In Touch
             </h3>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Whether you're interested in discussing finance trends, exploring tech innovations, 
-              or exploring potential collaborations, I'd love to hear from you. Let's connect and 
+              I'd love to hear from you. Let's connect and 
               share ideas about the future of finance and technology.
             </p>
 
