@@ -9,7 +9,6 @@ const Blog = () => {
     {
       title: "The Future of Finance: How AI is Revolutionizing Accounting",
       excerpt: "Exploring the transformative impact of artificial intelligence on traditional accounting practices and what it means for the future of finance professionals.",
-      date: "2024-01-15",
       readTime: "5 min read",
       category: "AI & Finance",
       featured: true
@@ -17,21 +16,18 @@ const Blog = () => {
     {
       title: "Personal Finance in the Digital Age: A Gen-Z Perspective",
       excerpt: "Understanding how digital tools and apps are changing the way young people manage money, invest, and plan for their financial future.",
-      date: "2024-01-10",
       readTime: "7 min read",
       category: "Personal Finance"
     },
     {
       title: "Cryptocurrency and Traditional Accounting: Bridging the Gap",
       excerpt: "How traditional accounting principles apply to cryptocurrency transactions and the challenges faced by modern accountants.",
-      date: "2024-01-05",
       readTime: "6 min read",
       category: "Crypto & Finance"
     },
     {
       title: "Data Analytics in Financial Decision Making",
       excerpt: "The role of data analytics in modern financial decision making and how students can develop these crucial skills.",
-      date: "2023-12-28",
       readTime: "8 min read",
       category: "Data & Analytics"
     }
