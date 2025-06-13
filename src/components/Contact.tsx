@@ -1,13 +1,10 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <section id="contact" className="py-20 bg-background">
+  return <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -35,7 +32,7 @@ const Contact = () => {
                   <Mail className="h-5 w-5 text-primary mr-3" />
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <p className="text-muted-foreground">khushaank.gupta@email.com</p>
+                    <p className="text-muted-foreground">khushaankgupta@gmail.com</p>
                   </div>
                 </CardContent>
               </Card>
@@ -45,7 +42,8 @@ const Contact = () => {
                   <Phone className="h-5 w-5 text-primary mr-3" />
                   <div>
                     <p className="font-medium text-foreground">Phone</p>
-                    <p className="text-muted-foreground">+91 XXXXX XXXXX</p>
+                    <p className="text-muted-foreground">
+                  </p>
                   </div>
                 </CardContent>
               </Card>
@@ -113,10 +111,7 @@ const Contact = () => {
                   <label className="text-sm font-medium text-foreground mb-2 block">
                     Message
                   </label>
-                  <Textarea 
-                    placeholder="Tell me about your project, idea, or just say hello..."
-                    rows={6}
-                  />
+                  <Textarea placeholder="Tell me about your project, idea, or just say hello..." rows={6} />
                 </div>
                 <Button type="submit" className="w-full">
                   Send Message
@@ -126,8 +121,6 @@ const Contact = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
